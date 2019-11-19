@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2F2F2;
+  height: 400px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.header .a-header {
+  float: left;
+  display: block;
+  font-family: 'GothamBook';
+	font-size: 13px;
+	font-weight: normal;
+	color: #5E5E5E;
+	letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 70px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+@keyframes faded {
+  0%{color: #5E5E5E}
+  25%{color: #FC6E19}
+  50%{color: #FC6E19}
+  100%{color:#FC6E19}
+}
+
+@-webkit-keyframes faded {
+  0%{color: #5E5E5E}
+  25%{color: #FC6E19}
+  50%{color: #FC6E19}
+  100%{color:#FC6E19}
+}
+
+
+.a-header:hover{
+  color: #FC703A;
+  animation-name: faded;
+  animation-duration: 2s;
+  -webkit-animation-name: faded;
+  -webkit-animation-duration: 2s;
+}
+
+.logo-pos-header {
+  padding-left: 100px;
+  width: 180px;
+  padding-top: 20px;
+  position: relative;
+  left: 0px;
+}
+
+.a-header-right {
+  float: right;
+  display: block;
+  font-family:"GothamBook";
+	font-size: 13px;
+	font-weight: normal;
+	color: #5E5E5E;
+	letter-spacing: 1px;
+  	text-align: center;
+  	text-decoration: none;
+  	padding-right: 80px;
+  	padding-top: 35px;
+  	position: relative;
+  	left: -50px;
+  	top: 7px;
+}
+
+.a-header-right:hover {
+  text-decoration:none;
+	color: #FC703A;
+}
+
+.a-header-right-img {
+  float: right;
+  display: block;
+  font-family:"GothamBook";
+	font-size: 13px;
+	font-weight: normal;
+	color: #5E5E5E;
+	letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: -25px;
+  padding-top: 25px;
+  position: relative;
+  left: -70px;
+  width: 80px;
+}
+
+.a-header-right-circle {
+  float: right;
+  display: block;
+  font-family:"GothamBook";
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFFFFF;
+  background-color: grey;
+	letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  position: relative;
+  top: 21px;
+  right: 20px;
+  border: 1px solid grey;
+  padding: 3px 15px 3px;
+}
+
+.orange-hr {
+  border: 1px solid #FC703A;
+  position: relative;
+  top: 8px;
+}
+
+.img-jalmi {
+  position: relative;
+  top: -130px;
+  float: right;
+  width: 500px;
+}
+
+.box1{
+  margin: 90px auto;
+  height: 200px;
+}
+
+.box-content1{
+  width: 500px;
+
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('../fonts/GothamBook.ttf') format('truetype');
+}
+
+.footer{
+  position: relative;
+  right: 0;
+  bottom: -650px;
+  left: 0;
+  background-color:#FC6E19;
+  height: 300px;
+}
+
+.img-footer{
+  position: relative;
+
+}
+
+.h3-navigation{
+  position: relative;
+  font-family: 'GothamBook';
+  color: white;
+  font-size: 19px;
+}
+
+.box-navigation{
+  position: relative;
+  top: 70px;
+  left: 60px;
+  width: 250px;
+	padding-bottom: 0px;
+}
+
+.ul-navigation li {
+  position: relative;
+  list-style-type: none;
+  font-family: 'Arial';
+  right: 40px;
+  top: 10px;
+  font-size: 12px;
+  padding-bottom: 7px;
+}
+
+@keyframes faded2 {
+  0%{color: #FFFFFF}
+  25%{color: #EAEAEA}
+  50%{color: #EAEAEA}
+  100%{color:#EAEAEA}
+}
+
+@webkit-keyframes faded2 {
+  0%{color: #FFFFFF}
+  25%{color: #EAEAEA}
+  50%{color: #EAEAEA}
+  100%{color:#EAEAEA}
+}
+
+.a-navigation{
+  text-decoration: none;
+  color: white;
+}
+
+.a-navigation:hover{
+  text-decoration: none;
+  color: #EAEAEA;
+  animation-name: faded2;
+  animation-duration: 2s;
+  -webkit-animation-name: faded2;
+  -webkit-animation-duration: 2s;
+}
+
+
+.h3-services{
+  position: relative;
+  font-family: 'GothamBook';
+  color: white;
+  font-size: 19px;
+}
+
+.box-services{
+  position: relative;
+  top: -155px;
+  left: 250px;
+  width: 350px;
+}
+
+.ul-services li
+{
+  position: relative;
+  list-style-type: none;
+  font-family: 'Arial';
+  right: 40px;
+  top: 10px;
+  padding-bottom: 13px;
+  font-size: 12px;
+}
+
+.ul-services2 li {
+  position: relative;
+  list-style-type: none;
+  font-family: 'Arial';
+  right: 120px;
+  top: 15px;
+  padding-bottom: 13px;
+  font-size: 12px;
+}
+
+.ul-services2 {
+  position: relative;
+  list-style-type: none;
+  font-family: 'GothamBook';
+  right: 40px;
+  float: right;
+  top: -203px;
+  left: 130px;
+  padding-bottom: 17px;
+  font-size: 12px;
+}
+
+.a-services{
+  text-decoration: none;
+  color: white;
+}
+.a-services:hover{
+text-decoration: none;
+color: #EAEAEA;
+animation-name: faded2;
+animation-duration: 2s;
+-webkit-animation-name: faded2;
+-webkit-animation-duration: 2s;
+}
+
+.box-contact{
+  position: relative;
+  bottom: 590px;
+  float: left;
+  right: -680px;
+  width: 250px;
+  height: 200px;
+}
+
+
+.h3-contact{
+  position: relative;
+  font-family: 'GothamBook';
+  color: white;
+  font-size: 19px;
+
+}
+
+.img-mail{
+  padding-right: 10px;
+}
+
+.img-contact1{
+  position: relative;
+
+
+}
+
+.box-news{
+  position: relative;
+  float: left;
+  bottom: 590px;
+  left: 700px;
+  width: 350px;
+}
+
+.h3-news{
+  position: relative;
+  font-family: 'GothamBook';
+  color: white;
+  font-size: 19px;
+}
+
+.input-email{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 50px;
+  color: #FC703A;
+  font-family: 'Arial';
+
+}
+
+.input-news{
+  width: 400px;
+
+}
+
+.placeholder{
+  font-family: 'Arial';
+}
+
+.btn-subs{
+  position: relative;
+  top: -78px;
+  left: 190px;
+}
+
+.img-play{
+  width: 190px;
+  position: relative;
+  top: 0px;
+  left: -40px;
+}
+
+.back-pos{
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 900px;
+
+}
+
+.pos-back{
+  position: relative;
+  left: -450px;
+  top: -10px;
+}
+
+.img-box1{
+  float: right;
+  width: 710px;
+  position: relative;
+  top: -100px;
+}
+
+.h1-hitung{
+  font-family: 'GothamBold';
+  color: #FC703A;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-stretch: extra-condensed;
+  line-height:1.2;
+  position: relative;
+  top: 45px;
+  left: 100px;
+}
+
+.p-silahkan{
+  position: relative;
+  font-family: 'GothamBook';
+  font-size: 15px;
+  top: -55px;
+  left: 400px;
+  line-height:1.2;
+  color: gray;
+}
+
+label{
+  font-family: 'GothamBook';
+  color: gray;
+}
+
+.select-dari{
+  position: relative;
+  top: 10px;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  border: 2px gray solid;
+  background-color: #F2F2F2;
+  color: gray;
+  text-align-last:center;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+.select-jenis{
+  position: relative;
+  top: 10px;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  border: 1px gray solid;
+  background-color: #848484;
+  color: white;
+  text-align-last:center;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  
+}
+
+.ul2{
+  list-style-type: none;
+  position: relative;
+  left: -35px;
+}
+
+.li3{
+  position: relative;
+  top: 25px;
+}
+
+.li4{
+  position: relative;
+  top: 50px;
+}
+
+.input-grams{
+  border: none;
+  border-bottom: 2px solid gray;
+  height: 30px;
+  width: 190px;
+  font-family: 'Roboto';
+  background-color: #F2F2F2;
+}
+
+
+.input-1{
+  border: none;
+  border-bottom: 2px solid gray;
+  height: 30px;
+  width: 82px;
+  font-family: 'Roboto';
+  background-color: #F2F2F2;
+}
+
+
+
+.input-1:nth-child(2){
+  border: none;
+  border-bottom: 2px solid gray;
+  height: 30px;
+  width: 82px;
+  position: relative;
+  left: 7px;
+  font-family: 'Roboto';
+  background-color: #F2F2F2;
+}
+
+.input-1:nth-child(3){
+  border: none;
+  border-bottom: 2px solid gray;
+  height: 30px;
+  width: 82px;
+  position: relative;
+  left: 15px;
+  font-family: 'Roboto';
+  background-color: #F2F2F2;
+}
+
+.span1{
+  color: gray;
+  font-weight: bold;
+  font-family: 'GothamBook';
+  font-size: 15px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.input-barang{
+  border: none;
+  border-bottom: 2px solid gray;
+  height: 30px;
+  width: 190px;
+  font-family: 'Roboto';
+  background-color: #F2F2F2;
+}
+
+.a-cek{
+  position: relative;
+  top: 70px;
+}
+
+.img-cek{
+  position: relative;
+  width: 160px;
+}
+
+.input-form{
+  position: relative;
+  top: 5px;
+  left: 100px;
+}
